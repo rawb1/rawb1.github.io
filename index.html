@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Robin Proquot</title>
+    <meta name="description" content="CV - Robin Proquot">
+    <meta name="keywords" content="cv, work, developpeur, developer, fullstack, freelance, resume">
+    <meta name="author" content="Robin Proquot">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --primary-color: #ff9200;
+            --text-color: #383838;
+            --text-color-light: #808080;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1d1f21;
+                --primary-color: #ff9200;
+                --text-color: #c9cacc;
+                --text-color-light: #9f9f9f;
+            }
+        }
+
+        @page {
+            border-top: 0;
+            size: A4;
+            margin: 0;
+            width: 210mm;
+            height: 297mm;
+        }
+
+        /* GLOBAL */
+        html {
+            height: 100%;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border-top: 2px solid currentColor;
+            color: var(--text-color);
+            background: var(--bg-color);
+        }
+
+        body {
+            font-weight: 400;
+            font-size: 14px;
+            font-family: "Menlo", "Meslo LG", monospace;
+            line-height: 1.5;
+            max-width: 48rem;
+            margin: auto;
+            padding: 2rem;
+            text-rendering: geometricPrecision;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body>section {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        body>section:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        section {
+            margin-bottom: 1rem;
+        }
+
+        header {
+            margin-bottom: 2rem;
+        }
+
+        article {
+            -webkit-box-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            padding: 0 1rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+
+        aside {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            padding: 0 1rem 0 2rem;
+            border-left: 1px solid currentColor;
+        }
+
+        aside>section:not(:last-child) {
+            border-bottom: 1px solid currentColor;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: .25em;
+        }
+
+        h3 {
+            font-size: 1em;
+        }
+
+        h4 {
+            margin: 0;
+            margin-bottom: .25em;
+        }
+
+        h1 {
+            font-size: 2.75rem;
+            text-align: center;
+            margin: 1rem 0 0 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: currentColor;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 1rem;
+        }
+
+        ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ol li {
+            margin-bottom: 1rem;
+        }
+
+        ol.tight li {
+            margin-bottom: .5rem;
+        }
+
+        li p {
+            margin: 0;
+        }
+
+        /* CUSTOM */
+        .title {
+            text-align: end;
+            color: var(--text-color-light);
+            font-weight: inherit;
+            font-size: 1rem;
+        }
+
+        .profile {
+            padding: 0 1rem 0 2rem;
+            border-left: 1px solid currentColor;
+        }
+
+        .contact {
+            border: 1px solid currentColor;
+            text-align: end;
+            padding-left: 3.1rem;
+        }
+
+        .contact>* {
+            display: block;
+            margin-right: -1.1rem;
+            background-color: var(--bg-color);
+            margin-bottom: 1rem;
+        }
+
+        .contact a {
+            display: block;
+        }
+
+        .site {
+            padding: .5rem;
+            margin-top: 1rem;
+            margin-right: -2rem;
+            text-transform: uppercase;
+            -webkit-box-shadow: inset 0 0 0 1000px var(--primary-color);
+            box-shadow: inset 0 0 0 1000px var(--primary-color);
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article>
+            <header>
+                <h1>Robin PROQUOT</h1>
+                <h2 class="title">Freelance développeur Fullstack</h2>
+            </header>
+            <section class="profile">
+                <h2>Profile</h2>
+                Développeur depuis 3 ans, passionné par le web et les drones.
+                Je serais ravi de pouvoir vous accompagner dans vos projets ✌️
+            </section>
+        </article>
+        <aside class="contact">
+            <a class="site" href="https://rawb1.pro">www.rawb1.pro</a>
+            <div>
+                <h3>Contact</h3>
+                <a href="tel:+33668589565">+33668589565</a>
+                <a href="mailto:robin@rawb1.pro">robin@rawb1.pro</a>
+                <a href="mailto:proquotrobin@gmail.com">proquotrobin@gmail.com</a>
+            </div>
+            <div>
+                <b>
+                    17 rue Jeanne d'Arc
+                    17000 La Rochelle
+                    Nouvelle Aquitaine, France
+                </b>
+            </div>
+        </aside>
+    </section>
+    <section>
+        <article>
+            <h2>Experience</h2>
+            <ol>
+                <li>
+                    <h3>Développeur Fullstack | SEPT 2019 - JAN 2021</h3>
+                    <h4>Rendement Locatif, Bordeaux</h4>
+                    <p>
+                        Maintenance et évolution du site <a href="https://www.rendementlocatif.com/"
+                            rel="noopener">rendementlocatif.com</a>.
+                        Mise a jour et migration du système de paiement des abonnements vers un nouvel environnement.
+                        Refonte en Node.js et Vue.js en utilisant le Domain Driven Design.
+                    </p>
+                <li>
+                <li>
+                    <h3>Ingénieur logiciels | NOV 2018 - AOUT 2019</h3>
+                    <h4>Dronisos, Bègles</h4>
+                    <p>
+                        Développement d'une plateforme web pour la gestion et le contrôle en temps réel de plus de 200
+                        drones.
+                        Configuration des kits de vol (serveur et réseau sans fil) puis installation chez les clients.
+                    </p>
+                <li>
+                <li>
+                    <h3>Création de startup | JAN 2018 - SEPT 2018</h3>
+                    <h4>Heolink, Talence</h4>
+                    <p>
+                        La plateforme Heolink propose une interface complète pour superviser une flotte de drones.
+                        Projet de création de startup incubé à l'incubateur Bordeaux INP Sit'Innov.
+                    </p>
+                <li>
+                    <!-- <li>
+                    <h3>Recherche & Développement | JUIN 2017 - SEPT 2017</h3>
+                    <h4>Unifly nv, Antwerpen Belgique</h4>
+                    <p>
+                        Développement d'applications mobiles multiplateformes utilisant l'API HERE Map et les services de géolocalisation en arrière-plan.
+                        Conception et assemblage d'un drone autonome connecté au réseau Internet mobile 4G.
+                    </p>
+                <li> -->
+            </ol>
+            <h2>Projects</h2>
+            <ol>
+                <li>
+                    <h3>MLH Hackathon 2017 & 2018</h3>
+                    <h4>Equipe organisatrice</h4>
+                    <p>
+                        Premier Hackathon MLH Français à l’ENSEIRB-MATMECA, Bordeaux ayant accueilli plus de 120
+                        participants lors de la première édition.
+                    </p>
+                <li>
+            </ol>
+        </article>
+        <aside>
+            <section>
+                <h2>Formation</h2>
+                <ol>
+                    <li>
+                        <h3>Enseirb Matmeca</h3>
+                        <span>Diplome d'ingenieur</span>
+                        <span>2015/2018</span>
+                    </li>
+                    <li>
+                        <h3>CPGE Lycée Chateaubriand</h3>
+                        <span>PCSI - PSI</span>
+                        <span>2013/2015</span>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>récompenses</h2>
+                <ol>
+                    <li>
+                        <h3>télépilote drones</h3>
+                        <span>Brevet théorique</span>
+                        <span>2019</span>
+                    </li>
+                    <li>
+                        <h3>prix PÉPITE</h3>
+                        <span>Lauréat régional</span>
+                        <span>2018</span>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>langues</h2>
+                <p>
+                <ol class="tight">
+                    <li>Fançais: natif</li>
+                    <li>Anglais: professionel</li>
+                    <li>Espagnol: notions</li>
+                </ol>
+                </p>
+            </section>
+            <section>
+                <h2>Loisirs</h2>
+                <ul>
+                    <li>
+                        Basketball
+                    </li>
+                    <li>
+                        Volleyball
+                    </li>
+                    <li>
+                        Batterie & Guitare
+                    </li>
+                    <li>
+                        Drones
+                    </li>
+                </ul>
+            </section>
+        </aside>
+    </section>
+</body>
+
+</html>
